@@ -13,11 +13,11 @@
           style="color: #7d2883; font-size: 26px"
         ></i>
       </span>
-      <b-navbar-brand href="#">
-        <!-- <NuxtLink to="/"> -->
+      <!-- <b-navbar-brand href="#"> -->
+        <NuxtLink to="/">
           <img class="ms-5" height="30px" src="~assets/images/logo.png" alt=""/>
-        <!-- </NuxtLink> -->
-      </b-navbar-brand>
+        </NuxtLink>
+      <!-- </b-navbar-brand> -->
 
       <b-navbar-toggle target="nav-collapse">
         <i class="fas fa-bars" style="color: black"></i>
