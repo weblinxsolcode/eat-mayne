@@ -71,12 +71,14 @@
             class="card-2 col-12 col-md-5 col-lg-5 m-auto radius my-lg-0 my-md-0 my-5 col-lg-5 bg-white justify-content-center align-items-center"
           >
             <div class="d-flex mt-5">
+              <NuxtLink to="/menu_details">
               <button
                 class="btn text-lg-start bg-purple-d-a text-white button-radius-a"
                 type="submit"
               >
                 Cuisines
               </button>
+              </NuxtLink>
               <p class="mx-3 mb-0 ud">Trending Restaurants</p>
             </div>
             <div class="padding">
@@ -168,12 +170,14 @@
           >
             <div class="d-flex justify-content-between mt-5">
               <p class="mb-0 ty ud2">Trending Dishes</p>
+              <NuxtLink to="/menu">
               <button
                 class="btn text-end bg-purple-d-a text-white button-radius-a"
                 type="submit"
               >
                 Dishes
               </button>
+              </NuxtLink>
             </div>
             <div class="padding">
               <div class="col-12 pt-5 d-flex">

@@ -108,11 +108,13 @@
             <p class="mb-0 mt-3 text-muted">Lorem ipsum dolor sit</p>
           </div>
           <div class="mt-5">
+            <NuxtLink to="/rate">
             <button
               class="btn mx-4 text-lg-center bg-purple-d-a text-white button-radius-a"
             >
               Rate this Restaurant
             </button>
+            </NuxtLink>
           </div>
         </div>
       </b-sidebar>
