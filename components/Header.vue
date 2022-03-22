@@ -14,9 +14,9 @@
         ></i>
       </span>
       <b-navbar-brand href="#">
-        <NuxtLink to="/">
+        <!-- <NuxtLink to="/"> -->
           <img class="ms-5" height="30px" src="~assets/images/logo.png" alt=""/>
-        </NuxtLink>
+        <!-- </NuxtLink> -->
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse">
