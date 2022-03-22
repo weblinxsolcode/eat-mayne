@@ -14,7 +14,9 @@
         ></i>
       </span>
       <b-navbar-brand href="#">
-        <img class="ms-5" height="30px" src="~assets/images/logo.png" alt="" />
+        <NuxtLink to="/">
+          <img class="ms-5" height="30px" src="~assets/images/logo.png" alt=""/>
+        </NuxtLink>
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse">
@@ -23,8 +25,12 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ms-auto mt-2">
-          <b-nav-item class="mx-2 fw-bold">Rate Now</b-nav-item>
-          <b-nav-item class="mx-2 fw-bold">View Map</b-nav-item>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/rate"> Rate Now </NuxtLink>
+          </b-nav-item>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/map"> View Map </NuxtLink>
+          </b-nav-item>
           <b-nav-form class="">
             <b-input-group>
               <b-input-group-text
@@ -102,7 +108,11 @@
             <p class="mb-0 mt-3 text-muted">Lorem ipsum dolor sit</p>
           </div>
           <div class="mt-5">
-            <button class="btn mx-4 text-lg-center bg-purple-d-a text-white button-radius-a">Rate this Restaurant</button>
+            <button
+              class="btn mx-4 text-lg-center bg-purple-d-a text-white button-radius-a"
+            >
+              Rate this Restaurant
+            </button>
           </div>
         </div>
       </b-sidebar>
