@@ -170,13 +170,15 @@
     </div>
 
     <!-- slider section -->
-    <div
+    <!-- <div
       id="carouselExampleControls"
       class="carousel slide"
       data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+    > -->
+      <!-- <div class="carousel-inner"> -->
+        <div class="container">
+        <VueSlickCarousel class="mx-0 mt-3 mb-4">
+        <div class="carousel-item">
           <div class="container">
             <div class="row row2">
               <div
@@ -202,11 +204,11 @@
                   quo vero impedit voluptas aperiam.
                 </div>
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -214,13 +216,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -228,13 +230,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -242,7 +244,7 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
                 </div>
               </div>
@@ -270,11 +272,11 @@
                   quo vero impedit voluptas aperiam.
                 </div>
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -282,13 +284,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -296,13 +298,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -310,148 +312,7 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container">
-            <div class="row row2">
-              <div
-                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 cord bpx-2 py-5 ansab"
-              >
-                <div class="d-flex xzy">
-                  <img
-                    src="~assets/images/pexels-anthony-shkraba-7579120.png"
-                    class="rounded-circle"
-                    width="50px"
-                    height="50px"
-                    alt=""
-                  />
-                  <b>
-                    <h6 class="py-3 px-3 fs-4">Nancy</h6>
-                  </b>
-                </div>
-
-                <div class="xzy">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Porro, facilis nihil? Iure aspernatur unde autem repellat ab
-                  repudiandae quasi cum architecto! Cum, temporibus quisquam sed
-                  quo vero impedit voluptas aperiam.
-                </div>
-                <div class="row">
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="col-2 d-sm-none"></div>
-              <div
-                class="col-12 col-lg-5 col-md-5 bg-white px-2 mx-lg-5 mx-0 mx-md-5 py-5 ansab"
-              >
-                <div class="d-flex xzy">
-                  <img
-                    src="~assets/images/pexels-anthony-shkraba-7579120.png"
-                    class="rounded-circle"
-                    width="50px"
-                    height="50px"
-                    alt=""
-                  />
-                  <b>
-                    <h6 class="py-3 px-3 fs-4">Nancy</h6>
-                  </b>
-                </div>
-
-                <div class="xzy">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Porro, facilis nihil? Iure aspernatur unde autem repellat ab
-                  repudiandae quasi cum architecto! Cum, temporibus quisquam sed
-                  quo vero impedit voluptas aperiam.
-                </div>
-                <div class="row">
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="col-4">
-                    <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
-                    </b>
-                    <button class="btn border border-1 rounded-pill">
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
                 </div>
               </div>
@@ -462,7 +323,7 @@
           <div class="container">
             <div class="row row2">
               <div
-                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 px-2 mx-5 cord py-5 ansab"
+                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 cord flex-end px-2 py-5 ansab"
               >
                 <div class="d-flex xzy">
                   <img
@@ -484,11 +345,11 @@
                   quo vero impedit voluptas aperiam.
                 </div>
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -496,13 +357,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -510,13 +371,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -524,13 +385,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
                 </div>
               </div>
               <div class="col-2 d-sm-none"></div>
               <div
-                class="col-12 col-lg-5 col-md-5 bg-white cord mx-lg-5 mx-0 mx-md-5 px-2 py-5 ansab"
+                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 cord px-2 py-5 ansab"
               >
                 <div class="d-flex xzy">
                   <img
@@ -552,11 +413,11 @@
                   quo vero impedit voluptas aperiam.
                 </div>
                 <div class="row">
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -564,13 +425,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -578,13 +439,13 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 text-center">
                     <b>
-                      <h6 class="mx-4 mt-3 fs-5 d-block">over all</h6>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
-                    <button class="btn border border-1 rounded-pill">
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
                       <div class="star">
                         <span class="fa fa-star checked bg-yellow"></span>
                         <span class="fa fa-star checked bg-yellow"></span>
@@ -592,43 +453,181 @@
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                       </div>
-                    </button>
+                    <!-- </button> -->
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true">
-          <i
-            class="fas fa-angle-left"
-            style="color: black; font-size: 40px"
-          ></i>
-        </span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true">
-          <i
-            class="fas fa-angle-right"
-            style="color: black; font-size: 40px"
-          ></i>
-        </span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row row2">
+              <div
+                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 cord flex-end px-2 py-5 ansab"
+              >
+                <div class="d-flex xzy">
+                  <img
+                    src="~assets/images/pexels-anthony-shkraba-7579120.png"
+                    class="rounded-circle"
+                    width="50px"
+                    height="50px"
+                    alt=""
+                  />
+                  <b>
+                    <h6 class="py-3 px-3 fs-4">Nancy</h6>
+                  </b>
+                </div>
+
+                <div class="xzy">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro, facilis nihil? Iure aspernatur unde autem repellat ab
+                  repudiandae quasi cum architecto! Cum, temporibus quisquam sed
+                  quo vero impedit voluptas aperiam.
+                </div>
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 d-sm-none"></div>
+              <div
+                class="col-12 col-lg-5 col-md-5 bg-white mx-lg-5 mx-0 mx-md-5 cord px-2 py-5 ansab"
+              >
+                <div class="d-flex xzy">
+                  <img
+                    src="~assets/images/pexels-anthony-shkraba-7579120.png"
+                    class="rounded-circle"
+                    width="50px"
+                    height="50px"
+                    alt=""
+                  />
+                  <b>
+                    <h6 class="py-3 px-3 fs-4">Nancy</h6>
+                  </b>
+                </div>
+
+                <div class="xzy">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Porro, facilis nihil? Iure aspernatur unde autem repellat ab
+                  repudiandae quasi cum architecto! Cum, temporibus quisquam sed
+                  quo vero impedit voluptas aperiam.
+                </div>
+                <div class="row">
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                  <div class="col-4 text-center">
+                    <b>
+                      <h6 class="mt-3 fs-5 d-block">over all</h6>
+                    </b>
+                    <!-- <button class="btn border border-1 rounded-pill"> -->
+                      <div class="star">
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked bg-yellow"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    <!-- </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+        </VueSlickCarousel>
+        </div>
+    <!-- </div> -->
 
   </div>
 </template>
+
+
+
+
+<script>
+import VueSlickCarousel from "vue-slick-carousel";
+import "vue-slick-carousel/dist/vue-slick-carousel.css";
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
+export default {
+  name: "MyComponent",
+  components: { VueSlickCarousel },
+  data() {
+    return {
+      settings: {
+        arrows: true,
+        dots: false,
+        slidesToShow: 2,
+      }
+    };
+  },
+};
+</script>

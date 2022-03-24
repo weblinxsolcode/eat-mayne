@@ -1003,3 +1003,16 @@ h2 {
   font-size: 45px !important;
   font-weight: 900 !important;
 }
+
+button.slick-prev:before, button.slick-next:before {
+  color: black !important;
+}
+
+@media(max-width: 580px){
+  button.slick-prev:before, button.slick-next:before {
+    display: none !important;
+  }  
+  .for_hide{
+    display: none !important;
+  }
+}
