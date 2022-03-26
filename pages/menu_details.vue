@@ -1,5 +1,70 @@
 <template>
   <div>
+
+    <!-- nav bar -->
+    <b-navbar
+      toggleable="lg"
+      type="transparent"
+      class="container mt-3"
+      variant="transparent"
+    >
+      <!-- <span v-b-toggle.sidebar-backdrop>
+        <i class="fas fa-bars"
+          style="color: #7d2883; font-size: 26px"
+        ></i>
+      </span> -->
+      <!-- <b-navbar-brand href="#"> -->
+      <NuxtLink to="/">
+        <img class="ms-5" height="30px" src="~assets/images/logo.png" alt="" />
+      </NuxtLink>
+      <!-- </b-navbar-brand> -->
+
+      <b-navbar-toggle target="nav-collapse">
+        <i class="fas fa-bars" style="color: black"></i>
+      </b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ms-auto mt-2">
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/rate"> Rate Now </NuxtLink>
+          </b-nav-item>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/map"> View Map </NuxtLink>
+          </b-nav-item>
+          <b-nav-form class="">
+            <b-input-group>
+              <b-input-group-text
+                class="py-3 mt-0"
+                style="border: none; background-color: #f7f4f7"
+              >
+                <i class="fas fa-search text-muted"></i>
+              </b-input-group-text>
+              <b-form-input
+                class="mt-0 pt-1"
+                placeholder="Find Dish Name..."
+                style="border: none; background-color: #f7f4f7"
+              ></b-form-input>
+            </b-input-group>
+          </b-nav-form>
+        </b-navbar-nav>
+
+        <b-navbar-nav class="ms-auto">
+          <button
+            href="#"
+            class="btn text-decoration-underline mx-3 border-0 bg-white fw-bold"
+          >
+            Sign In
+          </button>
+          <button
+            class="btn bg-purple-d text-white button-radius px-3 fw-bold"
+            type="submit"
+          >
+            Sign-Up
+          </button>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+
     <div class="container py-5 mt-5">
       <div class="col-12">
         <div>
@@ -169,15 +234,8 @@
       </div>
     </div>
 
-    <!-- slider section -->
-    <!-- <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    > -->
-      <!-- <div class="carousel-inner"> -->
-        <div class="container">
-        <VueSlickCarousel class="mx-0 mt-3 mb-4">
+    <div class="container">
+      <VueSlickCarousel class="mx-0 mt-3 mb-4">
         <div class="carousel-item">
           <div class="container">
             <div class="row row2">
@@ -209,13 +267,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -223,13 +281,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -237,13 +295,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -277,13 +335,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -291,13 +349,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -305,13 +363,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -350,13 +408,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -364,13 +422,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -378,13 +436,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -418,13 +476,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -432,13 +490,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -446,13 +504,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -491,13 +549,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -505,13 +563,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -519,13 +577,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -559,13 +617,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -573,13 +631,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                   <div class="col-4 text-center">
@@ -587,13 +645,13 @@
                       <h6 class="mt-3 fs-5 d-block">over all</h6>
                     </b>
                     <!-- <button class="btn border border-1 rounded-pill"> -->
-                      <div class="star">
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked bg-yellow"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                      </div>
+                    <div class="star">
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked bg-yellow"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                    </div>
                     <!-- </button> -->
                   </div>
                 </div>
@@ -601,16 +659,11 @@
             </div>
           </div>
         </div>
-      <!-- </div> -->
-        </VueSlickCarousel>
-        </div>
-    <!-- </div> -->
-
+        <!-- </div> -->
+      </VueSlickCarousel>
+    </div>
   </div>
 </template>
-
-
-
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
@@ -626,7 +679,7 @@ export default {
         arrows: true,
         dots: false,
         slidesToShow: 2,
-      }
+      },
     };
   },
 };

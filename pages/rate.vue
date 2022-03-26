@@ -1,5 +1,62 @@
 <template>
   <div>
+    <!-- nav bar -->
+    <b-navbar
+      toggleable="lg"
+      type="transparent"
+      class="container mt-3"
+      variant="transparent"
+    >
+      <NuxtLink to="/">
+        <img class="ms-5" height="30px" src="~assets/images/logo.png" alt="" />
+      </NuxtLink>
+
+      <b-navbar-toggle target="nav-collapse">
+        <i class="fas fa-bars" style="color: black"></i>
+      </b-navbar-toggle>
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ms-auto mt-2">
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/rate"> Rate Now </NuxtLink>
+          </b-nav-item>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/map"> View Map </NuxtLink>
+          </b-nav-item>
+          <b-nav-form class="">
+            <b-input-group>
+              <b-input-group-text
+                class="py-3 mt-0"
+                style="border: none; background-color: #f7f4f7"
+              >
+                <i class="fas fa-search text-muted"></i>
+              </b-input-group-text>
+              <b-form-input
+                class="mt-0 pt-1"
+                placeholder="Find Dish Name..."
+                style="border: none; background-color: #f7f4f7"
+              ></b-form-input>
+            </b-input-group>
+          </b-nav-form>
+        </b-navbar-nav>
+
+        <b-navbar-nav class="ms-auto">
+          <button
+            href="#"
+            class="btn text-decoration-underline mx-3 border-0 bg-white fw-bold"
+          >
+            Sign In
+          </button>
+          <button
+            class="btn bg-purple-d text-white button-radius px-3 fw-bold"
+            type="submit"
+          >
+            Sign-Up
+          </button>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+
     <div class="container py-5">
       <div class="col-12 w mt-5">
         <div>
@@ -10,12 +67,6 @@
           </p>
         </div>
       </div>
-      <!-- <button
-        class="btn my-4 text-lg-start bg-purple-d-a text-white button-radius-a px-3"
-        type="submit"
-      >
-        Back
-      </button> -->
       <div class="container bg-white py-2 izan ansab">
         <div class="">
           <div class="container px-0 px-lg-5 my-5">
@@ -122,7 +173,7 @@
                 />
               </div>
             </div>
-            
+
             <div class="row">
               <div class="col-12 col-lg-2">
                 <b>
@@ -143,57 +194,21 @@
               </div>
             </div>
 
-            <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <div class="mb-3 ">
-                            
-                            
-                        </div>
-                        <div class="mb-3 ">
-                            <label class="form-label " for="dish">Dish</label>
-                            <input class="form-control" id="dish" type="text" placeholder="Prepopulated"
-                                data-sb-validations="" />
-                        </div>
-                        <div class="mb-3   ">
-                            <label class="form-label" for=""></label>
-                            <input class="form-control  " id="" type="text" placeholder="Spice"
-                                data-sb-validations="" />
-                            <label class="form-label" for=""></label>
-                            <input class="form-control  mx-1" id="" type="text" placeholder="Portion"
-                                data-sb-validations="" />
-                        </div>
-                        <div class="mb-3 d-flex   ">
-                            <label class="form-label" for=""></label>
-                            <input class="form-control  " id="" type="text" placeholder="Value"
-                                data-sb-validations="" />
-                            <label class="form-label" for=""></label>
-                            <input class="form-control  mx-1" id="" type="text" placeholder="Mayne Factor"
-                                data-sb-validations="" />
-                        </div>
-                        <div class="mb-3 d-flex   ">
-                            <label class="form-label" for=""></label>
-                            <input class="form-control " id="" type="text" placeholder="Overall"
-                                data-sb-validations="" />
-
-                        </div>
-
-                        <div class="mb-3 ">
-                      
-                        </div>
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-
-                            </div>
-                        </div>
-
-                    </form> -->
             <hr class="my-5" />
             <div class="col-12 text-center">
-              <div class="star-3 text-lg-center pt-5">
-                <span class="fa fa-star checked bg-yellow fs-1"></span>
-                <span class="fa fa-star checked bg-yellow fs-1"></span>
-                <span class="fa fa-star checked bg-yellow fs-1"></span>
-                <span class="fa fa-star bg-yellow fs-1"></span>
-                <span class="fa fa-star fs-1"></span>
+              <div class="rating-css">
+                <div class="star-icon">
+                  <input type="radio" name="rating1" id="rating1" />
+                  <label for="rating1" class="fa fa-star"></label>
+                  <input type="radio" name="rating1" id="rating2" />
+                  <label for="rating2" class="fa fa-star"></label>
+                  <input type="radio" name="rating1" id="rating3" />
+                  <label for="rating3" class="fa fa-star"></label>
+                  <input type="radio" name="rating1" id="rating4" />
+                  <label for="rating4" class="fa fa-star"></label>
+                  <input type="radio" name="rating1" id="rating5" />
+                  <label for="rating5" class="fa fa-star"></label>
+                </div>
               </div>
             </div>
           </div>

@@ -34,6 +34,11 @@ a {
   padding-left: auto;
 }
 
+.search_feild {
+  text-align: center;
+  width: 400px;
+}
+
 /* banner section css  start*/
 
 .bg-purple-d-a {
@@ -57,11 +62,66 @@ a {
 }
 
 .brain {
+  position: relative;
   /* background-image: url("images/bannner.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
+}
+
+
+.chars img {
+  width: 45px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.reviews_rate {
+  filter: drop-shadow(-11.722px 27.615px 32.5px rgba(0, 0, 0, 0.1));
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  width: max-content;
+  border-radius: 13px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ban_lorem {
+  border-radius: 13px;
+  filter: drop-shadow(-11.722px 27.615px 32.5px rgba(0, 0, 0, 0.1));
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+}
+
+.ban_lorem p {
+  text-align: center;
+}
+
+@media(max-width: 575px) {
+  .ban_lorem {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .reviews_rate {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+
+.char1 {
+  margin-left: 0px !important;
 }
 
 .up {
@@ -99,7 +159,7 @@ a {
 .card-1 {
   /* margin-top: 42px; */
   width: auto;
-  height: 200px;
+  height: 160px;
   /* border: #7d2883 1px solid; */
 }
 
@@ -1008,11 +1068,49 @@ button.slick-prev:before, button.slick-next:before {
   color: black !important;
 }
 
-@media(max-width: 580px){
+@media(max-width: 580px) {
   button.slick-prev:before, button.slick-next:before {
     display: none !important;
-  }  
-  .for_hide{
+  }
+
+  .for_hide {
     display: none !important;
   }
+}
+
+@media(max-width: 970px) {
+  .search_feild {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+#radio2, #radio1 {
+  transition: 1s;
+  display: none;
+}
+
+
+.rating-css div {
+  color: #ff9900;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.rating-css input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 30px;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: #838383;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
 }
