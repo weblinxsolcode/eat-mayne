@@ -7,6 +7,7 @@
       class="container mt-3"
       variant="transparent"
     >
+      
       <NuxtLink to="/">
         <img class="ms-5" height="30px" src="~assets/images/logo.png" alt="" />
       </NuxtLink>
@@ -16,15 +17,9 @@
       </b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="ms-auto mt-2">
-          <b-nav-item class="mx-2 fw-bold">
-            <NuxtLink to="/rate"> Rate Now </NuxtLink>
-          </b-nav-item>
-          <b-nav-item class="mx-2 fw-bold">
-            <NuxtLink to="/map"> View Map </NuxtLink>
-          </b-nav-item>
-          <b-nav-form class="">
-            <b-input-group>
+        <b-navbar-nav class="ms-auto mt-2 text-center">
+          <b-nav-form>
+            <b-input-group class="search_feild">
               <b-input-group-text
                 class="py-3 mt-0"
                 style="border: none; background-color: #f7f4f7"
@@ -38,9 +33,15 @@
               ></b-form-input>
             </b-input-group>
           </b-nav-form>
-        </b-navbar-nav>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/rate"> Rate Now </NuxtLink>
+          </b-nav-item>
+          <b-nav-item class="mx-2 fw-bold">
+            <NuxtLink to="/map"> View Map </NuxtLink>
+          </b-nav-item>
+          <!-- </b-navbar-nav> -->
 
-        <b-navbar-nav class="ms-auto">
+          <!-- <b-navbar-nav class="ms-auto"> -->
           <button
             href="#"
             class="btn text-decoration-underline mx-3 border-0 bg-white fw-bold"
