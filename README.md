@@ -1,1 +1,1 @@
-https://writeout.netlify.app/
+https://eat-mayne.netlify.app/
