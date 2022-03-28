@@ -4,12 +4,17 @@
   margin: 0px;
   padding: 0px;
   font-family: 'FF DIN';
-  src: url('../Font/DIN.ttf');
+  /* src: url('../Font/DIN.ttf');
   src: url('../Font/DIN Black.ttf');
   src: url('../Font/DIN Bold.ttf');
-  src: url('../Font/DIN Medium.ttf');
+  src: url('../Font/DIN Medium.ttf'); */
   box-sizing: border-box;
   text-decoration: none;
+}
+
+@font-face {
+  font-family: 'FF DIN';
+  src: url('../Font/DIN.ttf');
 }
 
 a {
